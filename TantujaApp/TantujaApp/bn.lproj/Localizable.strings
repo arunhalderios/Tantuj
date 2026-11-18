@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  TantujaApp
+
+  Created by Niranjan Barik on 31/08/22.
+  
+*/
+"Welcome Back" = "ফিরে আসার জন্য স্বাগতম!";
+"Let’s login for explore continues" = "অন্বেষণ অব্যাহত জন্য লগইন করা যাক";
+"Sign In" = "সাইন ইন করুন";
+"Continue"                             = "এগিয়ে যান";
+"Phone Number"                         = "ফোন নম্বর";
+"Password"                             = "পাসওয়ার্ড";
+"Remember Me"                          = "এই ডিভাইসে আমাকে মনে রাখবেন";
+"Forgot Password"                      = "পাসওয়ার্ড ভুলে গেছেন";
+"Login to other account"               = "Login to other account";
+"Don’t have an account?"               = "একটি অ্যাকাউন্ট নেই?";
+"Register Now"                         = "এখন নিবন্ধন করুন";
+"Placed Order"                                      = "নতুন অর্ডার দেওয়া হয়েছে";
+"Pending Orders"                                    = "অমীমাংসিত অর্ডার";
+"Full fill Orders"                                  = "পরিপূর্ণ অর্ডার";
+"Order quantity limit remaining for the month"      = "এই মাসের জন্য অর্ডারের সর্বোচ্চ পরিমাণ সীমা: 25 কেজি";
+"Order quantity limit remaining for the month"      = "এই মাসের জন্য অর্ডারের সর্বোচ্চ পরিমাণ সীমা: ৪ কেজি";
+"Place New Order"                                   = "নতুন অর্ডার দিন";
+"Order From"                                        = "আপনি আপনার অর্ডার সুতা যেখানে পেতে  চান  নির্বাচন করুন";
+"Select Hub"                                        = "হাব নির্বাচন করুন";
+"Category"                                          = "বিভাগ";
+"Select Category"                                   = "বিভাগ নির্বাচন করুন";
+"Item Particulars"                        = "আপনি যে সুতা পেতে চান তা  নির্বাচন করুন";
+"Select item particulars"                 = "আইটেম বিবরণ নির্বাচন করুন";
+"Supply Mill"                             = "যে মিল থেকে আপনি আপনার অর্ডার সুতা পেতে চান তা নির্বাচন করুন";
+"Select supply mill"                      = "সরবরাহ মিল নির্বাচন করুন";
+"Enter Weight"                            = "অনুগ্রহ করে  সুতার ওজন (কেজি)নির্বাচন করুন যা আপনি পেতে চান";
+"KG"                                      = "কেজি";

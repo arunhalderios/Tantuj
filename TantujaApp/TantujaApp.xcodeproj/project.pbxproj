@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321666AF7E5BA6F6BC4417BA /* Pods_TantujaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C2261030484476970C21A /* Pods_TantujaApp.framework */; };
+		4230B11D28BF1A5B009ED28B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4230B11F28BF1A5B009ED28B /* Localizable.strings */; };
+		424829C428BE1F6F002E8C0C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B128BE1F6E002E8C0C /* Inter-Medium.ttf */; };
+		424829C528BE1F6F002E8C0C /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 424829B228BE1F6E002E8C0C /* SIL Open Font License.txt */; };
+		424829C628BE1F6F002E8C0C /* Inter-Thin-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B328BE1F6E002E8C0C /* Inter-Thin-BETA.ttf */; };
+		424829C728BE1F6F002E8C0C /* Inter-UI-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B428BE1F6E002E8C0C /* Inter-UI-BlackItalic.ttf */; };
+		424829C828BE1F6F002E8C0C /* Inter-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B528BE1F6E002E8C0C /* Inter-SemiBoldItalic.ttf */; };
+		424829C928BE1F6F002E8C0C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B628BE1F6E002E8C0C /* Inter-Bold.ttf */; };
+		424829CA28BE1F6F002E8C0C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B728BE1F6E002E8C0C /* Inter-Regular.ttf */; };
+		424829CB28BE1F6F002E8C0C /* Inter-ThinItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B828BE1F6E002E8C0C /* Inter-ThinItalic-BETA.ttf */; };
+		424829CC28BE1F6F002E8C0C /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829B928BE1F6E002E8C0C /* Inter-ExtraBold.ttf */; };
+		424829CD28BE1F6F002E8C0C /* Inter-LightItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BA28BE1F6E002E8C0C /* Inter-LightItalic-BETA.ttf */; };
+		424829CE28BE1F6F002E8C0C /* Inter-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BB28BE1F6E002E8C0C /* Inter-BoldItalic.ttf */; };
+		424829CF28BE1F6F002E8C0C /* Inter-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BC28BE1F6E002E8C0C /* Inter-ExtraBoldItalic.ttf */; };
+		424829D028BE1F6F002E8C0C /* Inter-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BD28BE1F6E002E8C0C /* Inter-MediumItalic.ttf */; };
+		424829D128BE1F6F002E8C0C /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BE28BE1F6F002E8C0C /* Inter-Black.ttf */; };
+		424829D228BE1F6F002E8C0C /* Inter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829BF28BE1F6F002E8C0C /* Inter-Italic.ttf */; };
+		424829D328BE1F6F002E8C0C /* Inter-ExtraLightItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829C028BE1F6F002E8C0C /* Inter-ExtraLightItalic-BETA.ttf */; };
+		424829D428BE1F6F002E8C0C /* Inter-Light-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829C128BE1F6F002E8C0C /* Inter-Light-BETA.ttf */; };
+		424829D528BE1F6F002E8C0C /* Inter-ExtraLight-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829C228BE1F6F002E8C0C /* Inter-ExtraLight-BETA.ttf */; };
+		424829D628BE1F6F002E8C0C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424829C328BE1F6F002E8C0C /* Inter-SemiBold.ttf */; };
+		426D0D3A28BDC86A00E5A83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D0D3828BDC86A00E5A83C /* Main.storyboard */; };
+		426D0D3D28BDC86A00E5A83C /* TantujaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 426D0D3B28BDC86A00E5A83C /* TantujaApp.xcdatamodeld */; };
+		426D0D3F28BDC86F00E5A83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426D0D3E28BDC86F00E5A83C /* Assets.xcassets */; };
+		426D0D4228BDC86F00E5A83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D0D4028BDC86F00E5A83C /* LaunchScreen.storyboard */; };
+		426D0D4D28BDC86F00E5A83C /* TantujaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D0D4C28BDC86F00E5A83C /* TantujaAppTests.swift */; };
+		426D0D5728BDC86F00E5A83C /* TantujaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D0D5628BDC86F00E5A83C /* TantujaAppUITests.swift */; };
+		426D0D5928BDC86F00E5A83C /* TantujaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D0D5828BDC86F00E5A83C /* TantujaAppUITestsLaunchTests.swift */; };
+		42C484F528FEA04A002A1C01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C484F428FEA04A002A1C01 /* SceneDelegate.swift */; };
+		7854E0C729893B450053BAD2 /* PlaceYourOrderVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854E0C629893B450053BAD2 /* PlaceYourOrderVCViewController.swift */; };
+		78C45FDD296D8EDD0091BC9D /* splash1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FD7296D8EDC0091BC9D /* splash1@2x.png */; };
+		78C45FDE296D8EDD0091BC9D /* splash1.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FD8296D8EDC0091BC9D /* splash1.png */; };
+		78C45FDF296D8EDD0091BC9D /* splash2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FD9296D8EDD0091BC9D /* splash2@3x.png */; };
+		78C45FE0296D8EDD0091BC9D /* splash2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FDA296D8EDD0091BC9D /* splash2@2x.png */; };
+		78C45FE1296D8EDD0091BC9D /* splash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FDB296D8EDD0091BC9D /* splash2.png */; };
+		78C45FE2296D8EDD0091BC9D /* splash1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C45FDC296D8EDD0091BC9D /* splash1@3x.png */; };
+		78C45FE4296D906B0091BC9D /* Splash2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C45FE3296D906B0091BC9D /* Splash2.swift */; };
+		78F643BE296D37FB004CE9BA /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F643BD296D37FA004CE9BA /* RPicker.swift */; };
+		E26150FD28F83867002A724E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26150FC28F83867002A724E /* AppDelegate.swift */; };
+		E2867AC828F83A8400CDE3D4 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AB528F83A8400CDE3D4 /* ProfileVC.swift */; };
+		E2867AC928F83A8400CDE3D4 /* OtherLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AB628F83A8400CDE3D4 /* OtherLoginVC.swift */; };
+		E2867ACA28F83A8400CDE3D4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AB728F83A8400CDE3D4 /* ForgetPasswordVC.swift */; };
+		E2867ACB28F83A8400CDE3D4 /* OTPVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AB828F83A8400CDE3D4 /* OTPVerificationVC.swift */; };
+		E2867ACC28F83A8400CDE3D4 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AB928F83A8400CDE3D4 /* CreateOrderViewController.swift */; };
+		E2867ACD28F83A8400CDE3D4 /* ChangeLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABA28F83A8400CDE3D4 /* ChangeLanguageVC.swift */; };
+		E2867ACE28F83A8400CDE3D4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABB28F83A8400CDE3D4 /* RegisterVC.swift */; };
+		E2867ACF28F83A8400CDE3D4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABC28F83A8400CDE3D4 /* LoginVC.swift */; };
+		E2867AD028F83A8400CDE3D4 /* SuccessfulVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABD28F83A8400CDE3D4 /* SuccessfulVC.swift */; };
+		E2867AD128F83A8400CDE3D4 /* MyOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABE28F83A8400CDE3D4 /* MyOrderVC.swift */; };
+		E2867AD228F83A8400CDE3D4 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ABF28F83A8400CDE3D4 /* CartVC.swift */; };
+		E2867AD328F83A8400CDE3D4 /* PaymentSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC028F83A8400CDE3D4 /* PaymentSuccessVC.swift */; };
+		E2867AD428F83A8400CDE3D4 /* OrderDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC128F83A8400CDE3D4 /* OrderDetailsVC.swift */; };
+		E2867AD528F83A8400CDE3D4 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC228F83A8400CDE3D4 /* ChangePasswordVC.swift */; };
+		E2867AD728F83A8400CDE3D4 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC428F83A8400CDE3D4 /* PaymentVC.swift */; };
+		E2867AD828F83A8400CDE3D4 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC528F83A8400CDE3D4 /* NotificationVC.swift */; };
+		E2867AD928F83A8400CDE3D4 /* CreatePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC628F83A8400CDE3D4 /* CreatePasswordVC.swift */; };
+		E2867ADA28F83A8400CDE3D4 /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AC728F83A8400CDE3D4 /* WebviewVC.swift */; };
+		E2867AE328F83AAE00CDE3D4 /* SlideTransitionswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867ADF28F83AAE00CDE3D4 /* SlideTransitionswift.swift */; };
+		E2867AE528F83AAE00CDE3D4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AE128F83AAE00CDE3D4 /* MenuViewController.swift */; };
+		E2867AED28F83AFC00CDE3D4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AE728F83AFC00CDE3D4 /* CustomButton.swift */; };
+		E2867AEE28F83AFC00CDE3D4 /* AMPLocalizeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AE828F83AFC00CDE3D4 /* AMPLocalizeUtils.swift */; };
+		E2867AEF28F83AFC00CDE3D4 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AE928F83AFC00CDE3D4 /* RoundView.swift */; };
+		E2867AF028F83AFC00CDE3D4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AEA28F83AFC00CDE3D4 /* AuthService.swift */; };
+		E2867AF128F83AFC00CDE3D4 /* BaseParserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AEB28F83AFC00CDE3D4 /* BaseParserClass.swift */; };
+		E2867AF228F83AFC00CDE3D4 /* ReachabilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AEC28F83AFC00CDE3D4 /* ReachabilityClass.swift */; };
+		E2867AFC28F83B1E00CDE3D4 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AF528F83B1E00CDE3D4 /* NotificationCell.swift */; };
+		E2867AFD28F83B1E00CDE3D4 /* TotalAmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AF728F83B1E00CDE3D4 /* TotalAmountCell.swift */; };
+		E2867AFE28F83B1E00CDE3D4 /* OrderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AF828F83B1E00CDE3D4 /* OrderDetailsCell.swift */; };
+		E2867AFF28F83B1E00CDE3D4 /* MyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AF928F83B1E00CDE3D4 /* MyOrderCell.swift */; };
+		E2867B0028F83B1E00CDE3D4 /* OrderDetailsAmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AFA28F83B1E00CDE3D4 /* OrderDetailsAmountCell.swift */; };
+		E2867B0128F83B1E00CDE3D4 /* CartQTYCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867AFB28F83B1E00CDE3D4 /* CartQTYCell.swift */; };
+		E2867B1728F844DD00CDE3D4 /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2867B1628F844DD00CDE3D4 /* RemoteImageView.m */; };
+		E2867B1928F8450B00CDE3D4 /* UIImageView+Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2867B1828F8450B00CDE3D4 /* UIImageView+Letters.swift */; };
+		E2C2EA9329017A3F00EC763F /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C2EA9029017A3F00EC763F /* splash@2x.png */; };
+		E2C2EA9429017A3F00EC763F /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C2EA9129017A3F00EC763F /* splash.png */; };
+		E2C2EA9529017A3F00EC763F /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C2EA9229017A3F00EC763F /* splash@3x.png */; };
+		E2C36F29297039A900047B4C /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C36F28297039A900047B4C /* ShadowView.swift */; };
+		E2D756AB297566E00064D71E /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D756AA297566E00064D71E /* DeleteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426D0D4928BDC86F00E5A83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426D0D2728BDC86A00E5A83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426D0D2E28BDC86A00E5A83C;
+			remoteInfo = TantujaApp;
+		};
+		426D0D5328BDC86F00E5A83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426D0D2728BDC86A00E5A83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426D0D2E28BDC86A00E5A83C;
+			remoteInfo = TantujaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4230B11A28BF1A2F009ED28B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4230B11E28BF1A5B009ED28B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4230B12028BF1A9C009ED28B /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/Main.strings; sourceTree = "<group>"; };
+		4230B12128BF1A9C009ED28B /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4230B12228BF1A9C009ED28B /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		424829B128BE1F6E002E8C0C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		424829B228BE1F6E002E8C0C /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		424829B328BE1F6E002E8C0C /* Inter-Thin-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin-BETA.ttf"; sourceTree = "<group>"; };
+		424829B428BE1F6E002E8C0C /* Inter-UI-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-BlackItalic.ttf"; sourceTree = "<group>"; };
+		424829B528BE1F6E002E8C0C /* Inter-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		424829B628BE1F6E002E8C0C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		424829B728BE1F6E002E8C0C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		424829B828BE1F6E002E8C0C /* Inter-ThinItalic-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ThinItalic-BETA.ttf"; sourceTree = "<group>"; };
+		424829B928BE1F6E002E8C0C /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		424829BA28BE1F6E002E8C0C /* Inter-LightItalic-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-LightItalic-BETA.ttf"; sourceTree = "<group>"; };
+		424829BB28BE1F6E002E8C0C /* Inter-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-BoldItalic.ttf"; sourceTree = "<group>"; };
+		424829BC28BE1F6E002E8C0C /* Inter-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		424829BD28BE1F6E002E8C0C /* Inter-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-MediumItalic.ttf"; sourceTree = "<group>"; };
+		424829BE28BE1F6F002E8C0C /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		424829BF28BE1F6F002E8C0C /* Inter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Italic.ttf"; sourceTree = "<group>"; };
+		424829C028BE1F6F002E8C0C /* Inter-ExtraLightItalic-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLightItalic-BETA.ttf"; sourceTree = "<group>"; };
+		424829C128BE1F6F002E8C0C /* Inter-Light-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light-BETA.ttf"; sourceTree = "<group>"; };
+		424829C228BE1F6F002E8C0C /* Inter-ExtraLight-BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight-BETA.ttf"; sourceTree = "<group>"; };
+		424829C328BE1F6F002E8C0C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		426D0D2F28BDC86A00E5A83C /* TANTUJA YARN BANK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TANTUJA YARN BANK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D0D3928BDC86A00E5A83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426D0D3C28BDC86A00E5A83C /* TantujaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TantujaApp.xcdatamodel; sourceTree = "<group>"; };
+		426D0D3E28BDC86F00E5A83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426D0D4128BDC86F00E5A83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426D0D4328BDC86F00E5A83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426D0D4828BDC86F00E5A83C /* TantujaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TantujaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D0D4C28BDC86F00E5A83C /* TantujaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TantujaAppTests.swift; sourceTree = "<group>"; };
+		426D0D5228BDC86F00E5A83C /* TantujaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TantujaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D0D5628BDC86F00E5A83C /* TantujaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TantujaAppUITests.swift; sourceTree = "<group>"; };
+		426D0D5828BDC86F00E5A83C /* TantujaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TantujaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42C484F428FEA04A002A1C01 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42EE20E128CE0D5A00DFC812 /* TantujaApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TantujaApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E9C2261030484476970C21A /* Pods_TantujaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TantujaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A3D70261F29FDAD5CEDE8 /* Pods-TantujaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TantujaApp.debug.xcconfig"; path = "Target Support Files/Pods-TantujaApp/Pods-TantujaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7854E0C629893B450053BAD2 /* PlaceYourOrderVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceYourOrderVCViewController.swift; sourceTree = "<group>"; };
+		78C45FD7296D8EDC0091BC9D /* splash1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash1@2x.png"; sourceTree = "<group>"; };
+		78C45FD8296D8EDC0091BC9D /* splash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash1.png; sourceTree = "<group>"; };
+		78C45FD9296D8EDD0091BC9D /* splash2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash2@3x.png"; sourceTree = "<group>"; };
+		78C45FDA296D8EDD0091BC9D /* splash2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash2@2x.png"; sourceTree = "<group>"; };
+		78C45FDB296D8EDD0091BC9D /* splash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash2.png; sourceTree = "<group>"; };
+		78C45FDC296D8EDD0091BC9D /* splash1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash1@3x.png"; sourceTree = "<group>"; };
+		78C45FE3296D906B0091BC9D /* Splash2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash2.swift; sourceTree = "<group>"; };
+		78F643BD296D37FA004CE9BA /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		C745E9D597516C8190F40A8A /* Pods-TantujaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TantujaApp.release.xcconfig"; path = "Target Support Files/Pods-TantujaApp/Pods-TantujaApp.release.xcconfig"; sourceTree = "<group>"; };
+		E26150FC28F83867002A724E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2867AB528F83A8400CDE3D4 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E2867AB628F83A8400CDE3D4 /* OtherLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherLoginVC.swift; sourceTree = "<group>"; };
+		E2867AB728F83A8400CDE3D4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		E2867AB828F83A8400CDE3D4 /* OTPVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationVC.swift; sourceTree = "<group>"; };
+		E2867AB928F83A8400CDE3D4 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
+		E2867ABA28F83A8400CDE3D4 /* ChangeLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLanguageVC.swift; sourceTree = "<group>"; };
+		E2867ABB28F83A8400CDE3D4 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E2867ABC28F83A8400CDE3D4 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E2867ABD28F83A8400CDE3D4 /* SuccessfulVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessfulVC.swift; sourceTree = "<group>"; };
+		E2867ABE28F83A8400CDE3D4 /* MyOrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderVC.swift; sourceTree = "<group>"; };
+		E2867ABF28F83A8400CDE3D4 /* CartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		E2867AC028F83A8400CDE3D4 /* PaymentSuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSuccessVC.swift; sourceTree = "<group>"; };
+		E2867AC128F83A8400CDE3D4 /* OrderDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsVC.swift; sourceTree = "<group>"; };
+		E2867AC228F83A8400CDE3D4 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		E2867AC428F83A8400CDE3D4 /* PaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		E2867AC528F83A8400CDE3D4 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		E2867AC628F83A8400CDE3D4 /* CreatePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePasswordVC.swift; sourceTree = "<group>"; };
+		E2867AC728F83A8400CDE3D4 /* WebviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		E2867ADF28F83AAE00CDE3D4 /* SlideTransitionswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTransitionswift.swift; sourceTree = "<group>"; };
+		E2867AE128F83AAE00CDE3D4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E2867AE728F83AFC00CDE3D4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E2867AE828F83AFC00CDE3D4 /* AMPLocalizeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMPLocalizeUtils.swift; sourceTree = "<group>"; };
+		E2867AE928F83AFC00CDE3D4 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		E2867AEA28F83AFC00CDE3D4 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E2867AEB28F83AFC00CDE3D4 /* BaseParserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseParserClass.swift; sourceTree = "<group>"; };
+		E2867AEC28F83AFC00CDE3D4 /* ReachabilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityClass.swift; sourceTree = "<group>"; };
+		E2867AF528F83B1E00CDE3D4 /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		E2867AF728F83B1E00CDE3D4 /* TotalAmountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalAmountCell.swift; sourceTree = "<group>"; };
+		E2867AF828F83B1E00CDE3D4 /* OrderDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsCell.swift; sourceTree = "<group>"; };
+		E2867AF928F83B1E00CDE3D4 /* MyOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderCell.swift; sourceTree = "<group>"; };
+		E2867AFA28F83B1E00CDE3D4 /* OrderDetailsAmountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsAmountCell.swift; sourceTree = "<group>"; };
+		E2867AFB28F83B1E00CDE3D4 /* CartQTYCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartQTYCell.swift; sourceTree = "<group>"; };
+		E2867B1528F844DD00CDE3D4 /* RemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageView.h; sourceTree = "<group>"; };
+		E2867B1628F844DD00CDE3D4 /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
+		E2867B1828F8450B00CDE3D4 /* UIImageView+Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Letters.swift"; sourceTree = "<group>"; };
+		E2C2EA9029017A3F00EC763F /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash@2x.png"; path = "TantujaApp/Assets.xcassets/splash.imageset/splash@2x.png"; sourceTree = "<group>"; };
+		E2C2EA9129017A3F00EC763F /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = TantujaApp/Assets.xcassets/splash.imageset/splash.png; sourceTree = "<group>"; };
+		E2C2EA9229017A3F00EC763F /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash@3x.png"; path = "TantujaApp/Assets.xcassets/splash.imageset/splash@3x.png"; sourceTree = "<group>"; };
+		E2C36F28297039A900047B4C /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		E2D756AA297566E00064D71E /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426D0D2C28BDC86A00E5A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321666AF7E5BA6F6BC4417BA /* Pods_TantujaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D4528BDC86F00E5A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D4F28BDC86F00E5A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF3E355EA96BE8C85B6FF0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				760A3D70261F29FDAD5CEDE8 /* Pods-TantujaApp.debug.xcconfig */,
+				C745E9D597516C8190F40A8A /* Pods-TantujaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		424829B028BE1F6E002E8C0C /* inter */ = {
+			isa = PBXGroup;
+			children = (
+				424829B128BE1F6E002E8C0C /* Inter-Medium.ttf */,
+				424829B228BE1F6E002E8C0C /* SIL Open Font License.txt */,
+				424829B328BE1F6E002E8C0C /* Inter-Thin-BETA.ttf */,
+				424829B428BE1F6E002E8C0C /* Inter-UI-BlackItalic.ttf */,
+				424829B528BE1F6E002E8C0C /* Inter-SemiBoldItalic.ttf */,
+				424829B628BE1F6E002E8C0C /* Inter-Bold.ttf */,
+				424829B728BE1F6E002E8C0C /* Inter-Regular.ttf */,
+				424829B828BE1F6E002E8C0C /* Inter-ThinItalic-BETA.ttf */,
+				424829B928BE1F6E002E8C0C /* Inter-ExtraBold.ttf */,
+				424829BA28BE1F6E002E8C0C /* Inter-LightItalic-BETA.ttf */,
+				424829BB28BE1F6E002E8C0C /* Inter-BoldItalic.ttf */,
+				424829BC28BE1F6E002E8C0C /* Inter-ExtraBoldItalic.ttf */,
+				424829BD28BE1F6E002E8C0C /* Inter-MediumItalic.ttf */,
+				424829BE28BE1F6F002E8C0C /* Inter-Black.ttf */,
+				424829BF28BE1F6F002E8C0C /* Inter-Italic.ttf */,
+				424829C028BE1F6F002E8C0C /* Inter-ExtraLightItalic-BETA.ttf */,
+				424829C128BE1F6F002E8C0C /* Inter-Light-BETA.ttf */,
+				424829C228BE1F6F002E8C0C /* Inter-ExtraLight-BETA.ttf */,
+				424829C328BE1F6F002E8C0C /* Inter-SemiBold.ttf */,
+				42EE20E128CE0D5A00DFC812 /* TantujaApp-Bridging-Header.h */,
+			);
+			path = inter;
+			sourceTree = "<group>";
+		};
+		426D0D2628BDC86A00E5A83C = {
+			isa = PBXGroup;
+			children = (
+				E2C2EA9129017A3F00EC763F /* splash.png */,
+				E2C2EA9029017A3F00EC763F /* splash@2x.png */,
+				E2C2EA9229017A3F00EC763F /* splash@3x.png */,
+				78C45FD8296D8EDC0091BC9D /* splash1.png */,
+				78C45FD7296D8EDC0091BC9D /* splash1@2x.png */,
+				78C45FDC296D8EDD0091BC9D /* splash1@3x.png */,
+				78C45FDB296D8EDD0091BC9D /* splash2.png */,
+				78C45FDA296D8EDD0091BC9D /* splash2@2x.png */,
+				78C45FD9296D8EDD0091BC9D /* splash2@3x.png */,
+				426D0D3128BDC86A00E5A83C /* TantujaApp */,
+				426D0D4B28BDC86F00E5A83C /* TantujaAppTests */,
+				426D0D5528BDC86F00E5A83C /* TantujaAppUITests */,
+				426D0D3028BDC86A00E5A83C /* Products */,
+				2CF3E355EA96BE8C85B6FF0C /* Pods */,
+				77BF3C63FD04E540096D14DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		426D0D3028BDC86A00E5A83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426D0D2F28BDC86A00E5A83C /* TANTUJA YARN BANK.app */,
+				426D0D4828BDC86F00E5A83C /* TantujaAppTests.xctest */,
+				426D0D5228BDC86F00E5A83C /* TantujaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426D0D3128BDC86A00E5A83C /* TantujaApp */ = {
+			isa = PBXGroup;
+			children = (
+				424829B028BE1F6E002E8C0C /* inter */,
+				E26150FC28F83867002A724E /* AppDelegate.swift */,
+				42C484F428FEA04A002A1C01 /* SceneDelegate.swift */,
+				78F643BD296D37FA004CE9BA /* RPicker.swift */,
+				E2C36F28297039A900047B4C /* ShadowView.swift */,
+				E2867ADB28F83AAE00CDE3D4 /* SideMenu */,
+				E2867AE628F83AFC00CDE3D4 /* Utility */,
+				E2867AF328F83B1E00CDE3D4 /* view */,
+				E2867AB428F83A8400CDE3D4 /* Controller */,
+				426D0D3828BDC86A00E5A83C /* Main.storyboard */,
+				4230B11F28BF1A5B009ED28B /* Localizable.strings */,
+				426D0D3E28BDC86F00E5A83C /* Assets.xcassets */,
+				426D0D4028BDC86F00E5A83C /* LaunchScreen.storyboard */,
+				426D0D4328BDC86F00E5A83C /* Info.plist */,
+				426D0D3B28BDC86A00E5A83C /* TantujaApp.xcdatamodeld */,
+			);
+			path = TantujaApp;
+			sourceTree = "<group>";
+		};
+		426D0D4B28BDC86F00E5A83C /* TantujaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				426D0D4C28BDC86F00E5A83C /* TantujaAppTests.swift */,
+			);
+			path = TantujaAppTests;
+			sourceTree = "<group>";
+		};
+		426D0D5528BDC86F00E5A83C /* TantujaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				426D0D5628BDC86F00E5A83C /* TantujaAppUITests.swift */,
+				426D0D5828BDC86F00E5A83C /* TantujaAppUITestsLaunchTests.swift */,
+			);
+			path = TantujaAppUITests;
+			sourceTree = "<group>";
+		};
+		77BF3C63FD04E540096D14DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C2261030484476970C21A /* Pods_TantujaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2867AB428F83A8400CDE3D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C45FE3296D906B0091BC9D /* Splash2.swift */,
+				E2867AC528F83A8400CDE3D4 /* NotificationVC.swift */,
+				E2867ABA28F83A8400CDE3D4 /* ChangeLanguageVC.swift */,
+				E2867ABC28F83A8400CDE3D4 /* LoginVC.swift */,
+				E2867ABB28F83A8400CDE3D4 /* RegisterVC.swift */,
+				E2867AC628F83A8400CDE3D4 /* CreatePasswordVC.swift */,
+				E2867AB728F83A8400CDE3D4 /* ForgetPasswordVC.swift */,
+				E2867AB828F83A8400CDE3D4 /* OTPVerificationVC.swift */,
+				E2867AB528F83A8400CDE3D4 /* ProfileVC.swift */,
+				E2867ABD28F83A8400CDE3D4 /* SuccessfulVC.swift */,
+				E2867AB628F83A8400CDE3D4 /* OtherLoginVC.swift */,
+				E2867AB928F83A8400CDE3D4 /* CreateOrderViewController.swift */,
+				E2867ABE28F83A8400CDE3D4 /* MyOrderVC.swift */,
+				E2867ABF28F83A8400CDE3D4 /* CartVC.swift */,
+				7854E0C629893B450053BAD2 /* PlaceYourOrderVCViewController.swift */,
+				E2867AC028F83A8400CDE3D4 /* PaymentSuccessVC.swift */,
+				E2867AC128F83A8400CDE3D4 /* OrderDetailsVC.swift */,
+				E2867AC228F83A8400CDE3D4 /* ChangePasswordVC.swift */,
+				E2867AC428F83A8400CDE3D4 /* PaymentVC.swift */,
+				E2867AC728F83A8400CDE3D4 /* WebviewVC.swift */,
+				E2D756AA297566E00064D71E /* DeleteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2867ADB28F83AAE00CDE3D4 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E2867AE128F83AAE00CDE3D4 /* MenuViewController.swift */,
+				E2867ADF28F83AAE00CDE3D4 /* SlideTransitionswift.swift */,
+				E2867B1528F844DD00CDE3D4 /* RemoteImageView.h */,
+				E2867B1828F8450B00CDE3D4 /* UIImageView+Letters.swift */,
+				E2867B1628F844DD00CDE3D4 /* RemoteImageView.m */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		E2867AE628F83AFC00CDE3D4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E2867AEA28F83AFC00CDE3D4 /* AuthService.swift */,
+				E2867AE728F83AFC00CDE3D4 /* CustomButton.swift */,
+				E2867AE828F83AFC00CDE3D4 /* AMPLocalizeUtils.swift */,
+				E2867AE928F83AFC00CDE3D4 /* RoundView.swift */,
+				E2867AEB28F83AFC00CDE3D4 /* BaseParserClass.swift */,
+				E2867AEC28F83AFC00CDE3D4 /* ReachabilityClass.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E2867AF328F83B1E00CDE3D4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2867AF428F83B1E00CDE3D4 /* NotificationCell */,
+				E2867AF628F83B1E00CDE3D4 /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E2867AF428F83B1E00CDE3D4 /* NotificationCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2867AF528F83B1E00CDE3D4 /* NotificationCell.swift */,
+			);
+			path = NotificationCell;
+			sourceTree = "<group>";
+		};
+		E2867AF628F83B1E00CDE3D4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E2867AF728F83B1E00CDE3D4 /* TotalAmountCell.swift */,
+				E2867AF828F83B1E00CDE3D4 /* OrderDetailsCell.swift */,
+				E2867AF928F83B1E00CDE3D4 /* MyOrderCell.swift */,
+				E2867AFA28F83B1E00CDE3D4 /* OrderDetailsAmountCell.swift */,
+				E2867AFB28F83B1E00CDE3D4 /* CartQTYCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426D0D2E28BDC86A00E5A83C /* TantujaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D0D5C28BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaApp" */;
+			buildPhases = (
+				658D3BBEA73AA6B1ADBCEA6F /* [CP] Check Pods Manifest.lock */,
+				426D0D2B28BDC86A00E5A83C /* Sources */,
+				426D0D2C28BDC86A00E5A83C /* Frameworks */,
+				426D0D2D28BDC86A00E5A83C /* Resources */,
+				48B309640ED31DF9348178AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TantujaApp;
+			productName = TantujaApp;
+			productReference = 426D0D2F28BDC86A00E5A83C /* TANTUJA YARN BANK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426D0D4728BDC86F00E5A83C /* TantujaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D0D5F28BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaAppTests" */;
+			buildPhases = (
+				426D0D4428BDC86F00E5A83C /* Sources */,
+				426D0D4528BDC86F00E5A83C /* Frameworks */,
+				426D0D4628BDC86F00E5A83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426D0D4A28BDC86F00E5A83C /* PBXTargetDependency */,
+			);
+			name = TantujaAppTests;
+			productName = TantujaAppTests;
+			productReference = 426D0D4828BDC86F00E5A83C /* TantujaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426D0D5128BDC86F00E5A83C /* TantujaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D0D6228BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaAppUITests" */;
+			buildPhases = (
+				426D0D4E28BDC86F00E5A83C /* Sources */,
+				426D0D4F28BDC86F00E5A83C /* Frameworks */,
+				426D0D5028BDC86F00E5A83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426D0D5428BDC86F00E5A83C /* PBXTargetDependency */,
+			);
+			name = TantujaAppUITests;
+			productName = TantujaAppUITests;
+			productReference = 426D0D5228BDC86F00E5A83C /* TantujaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426D0D2728BDC86A00E5A83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					426D0D2E28BDC86A00E5A83C = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					426D0D4728BDC86F00E5A83C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 426D0D2E28BDC86A00E5A83C;
+					};
+					426D0D5128BDC86F00E5A83C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 426D0D2E28BDC86A00E5A83C;
+					};
+				};
+			};
+			buildConfigurationList = 426D0D2A28BDC86A00E5A83C /* Build configuration list for PBXProject "TantujaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				bn,
+			);
+			mainGroup = 426D0D2628BDC86A00E5A83C;
+			productRefGroup = 426D0D3028BDC86A00E5A83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426D0D2E28BDC86A00E5A83C /* TantujaApp */,
+				426D0D4728BDC86F00E5A83C /* TantujaAppTests */,
+				426D0D5128BDC86F00E5A83C /* TantujaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426D0D2D28BDC86A00E5A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424829CB28BE1F6F002E8C0C /* Inter-ThinItalic-BETA.ttf in Resources */,
+				424829C828BE1F6F002E8C0C /* Inter-SemiBoldItalic.ttf in Resources */,
+				78C45FDE296D8EDD0091BC9D /* splash1.png in Resources */,
+				4230B11D28BF1A5B009ED28B /* Localizable.strings in Resources */,
+				424829C628BE1F6F002E8C0C /* Inter-Thin-BETA.ttf in Resources */,
+				424829D128BE1F6F002E8C0C /* Inter-Black.ttf in Resources */,
+				424829D428BE1F6F002E8C0C /* Inter-Light-BETA.ttf in Resources */,
+				424829C428BE1F6F002E8C0C /* Inter-Medium.ttf in Resources */,
+				78C45FE2296D8EDD0091BC9D /* splash1@3x.png in Resources */,
+				424829C928BE1F6F002E8C0C /* Inter-Bold.ttf in Resources */,
+				78C45FDF296D8EDD0091BC9D /* splash2@3x.png in Resources */,
+				424829C528BE1F6F002E8C0C /* SIL Open Font License.txt in Resources */,
+				E2C2EA9429017A3F00EC763F /* splash.png in Resources */,
+				424829D228BE1F6F002E8C0C /* Inter-Italic.ttf in Resources */,
+				424829D528BE1F6F002E8C0C /* Inter-ExtraLight-BETA.ttf in Resources */,
+				78C45FE1296D8EDD0091BC9D /* splash2.png in Resources */,
+				426D0D4228BDC86F00E5A83C /* LaunchScreen.storyboard in Resources */,
+				424829CA28BE1F6F002E8C0C /* Inter-Regular.ttf in Resources */,
+				E2C2EA9329017A3F00EC763F /* splash@2x.png in Resources */,
+				424829D028BE1F6F002E8C0C /* Inter-MediumItalic.ttf in Resources */,
+				E2C2EA9529017A3F00EC763F /* splash@3x.png in Resources */,
+				424829CF28BE1F6F002E8C0C /* Inter-ExtraBoldItalic.ttf in Resources */,
+				424829D628BE1F6F002E8C0C /* Inter-SemiBold.ttf in Resources */,
+				424829D328BE1F6F002E8C0C /* Inter-ExtraLightItalic-BETA.ttf in Resources */,
+				78C45FE0296D8EDD0091BC9D /* splash2@2x.png in Resources */,
+				424829CE28BE1F6F002E8C0C /* Inter-BoldItalic.ttf in Resources */,
+				426D0D3F28BDC86F00E5A83C /* Assets.xcassets in Resources */,
+				424829CD28BE1F6F002E8C0C /* Inter-LightItalic-BETA.ttf in Resources */,
+				426D0D3A28BDC86A00E5A83C /* Main.storyboard in Resources */,
+				424829C728BE1F6F002E8C0C /* Inter-UI-BlackItalic.ttf in Resources */,
+				424829CC28BE1F6F002E8C0C /* Inter-ExtraBold.ttf in Resources */,
+				78C45FDD296D8EDD0091BC9D /* splash1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D4628BDC86F00E5A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D5028BDC86F00E5A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B309640ED31DF9348178AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TantujaApp/Pods-TantujaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TantujaApp/Pods-TantujaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TantujaApp/Pods-TantujaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658D3BBEA73AA6B1ADBCEA6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TantujaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426D0D2B28BDC86A00E5A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2867AD528F83A8400CDE3D4 /* ChangePasswordVC.swift in Sources */,
+				E2867AFC28F83B1E00CDE3D4 /* NotificationCell.swift in Sources */,
+				E2867AD128F83A8400CDE3D4 /* MyOrderVC.swift in Sources */,
+				E2867AED28F83AFC00CDE3D4 /* CustomButton.swift in Sources */,
+				E2867AFE28F83B1E00CDE3D4 /* OrderDetailsCell.swift in Sources */,
+				E2867AC828F83A8400CDE3D4 /* ProfileVC.swift in Sources */,
+				E2C36F29297039A900047B4C /* ShadowView.swift in Sources */,
+				E2867AE528F83AAE00CDE3D4 /* MenuViewController.swift in Sources */,
+				E2867AC928F83A8400CDE3D4 /* OtherLoginVC.swift in Sources */,
+				E2867AE328F83AAE00CDE3D4 /* SlideTransitionswift.swift in Sources */,
+				E2867AD028F83A8400CDE3D4 /* SuccessfulVC.swift in Sources */,
+				426D0D3D28BDC86A00E5A83C /* TantujaApp.xcdatamodeld in Sources */,
+				E2867B1928F8450B00CDE3D4 /* UIImageView+Letters.swift in Sources */,
+				E2867AEE28F83AFC00CDE3D4 /* AMPLocalizeUtils.swift in Sources */,
+				78C45FE4296D906B0091BC9D /* Splash2.swift in Sources */,
+				E2867ACB28F83A8400CDE3D4 /* OTPVerificationVC.swift in Sources */,
+				E2867AF128F83AFC00CDE3D4 /* BaseParserClass.swift in Sources */,
+				E2867ACA28F83A8400CDE3D4 /* ForgetPasswordVC.swift in Sources */,
+				E2867B1728F844DD00CDE3D4 /* RemoteImageView.m in Sources */,
+				78F643BE296D37FB004CE9BA /* RPicker.swift in Sources */,
+				E26150FD28F83867002A724E /* AppDelegate.swift in Sources */,
+				E2867AEF28F83AFC00CDE3D4 /* RoundView.swift in Sources */,
+				E2867B0028F83B1E00CDE3D4 /* OrderDetailsAmountCell.swift in Sources */,
+				E2867ACD28F83A8400CDE3D4 /* ChangeLanguageVC.swift in Sources */,
+				E2867AD228F83A8400CDE3D4 /* CartVC.swift in Sources */,
+				E2867AD428F83A8400CDE3D4 /* OrderDetailsVC.swift in Sources */,
+				E2867ACF28F83A8400CDE3D4 /* LoginVC.swift in Sources */,
+				E2867ACE28F83A8400CDE3D4 /* RegisterVC.swift in Sources */,
+				E2867B0128F83B1E00CDE3D4 /* CartQTYCell.swift in Sources */,
+				E2867AD928F83A8400CDE3D4 /* CreatePasswordVC.swift in Sources */,
+				E2867AF228F83AFC00CDE3D4 /* ReachabilityClass.swift in Sources */,
+				E2867ACC28F83A8400CDE3D4 /* CreateOrderViewController.swift in Sources */,
+				E2867ADA28F83A8400CDE3D4 /* WebviewVC.swift in Sources */,
+				7854E0C729893B450053BAD2 /* PlaceYourOrderVCViewController.swift in Sources */,
+				E2867AD728F83A8400CDE3D4 /* PaymentVC.swift in Sources */,
+				E2867AF028F83AFC00CDE3D4 /* AuthService.swift in Sources */,
+				E2867AD328F83A8400CDE3D4 /* PaymentSuccessVC.swift in Sources */,
+				E2D756AB297566E00064D71E /* DeleteViewController.swift in Sources */,
+				E2867AFD28F83B1E00CDE3D4 /* TotalAmountCell.swift in Sources */,
+				42C484F528FEA04A002A1C01 /* SceneDelegate.swift in Sources */,
+				E2867AFF28F83B1E00CDE3D4 /* MyOrderCell.swift in Sources */,
+				E2867AD828F83A8400CDE3D4 /* NotificationVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D4428BDC86F00E5A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D0D4D28BDC86F00E5A83C /* TantujaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D0D4E28BDC86F00E5A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D0D5928BDC86F00E5A83C /* TantujaAppUITestsLaunchTests.swift in Sources */,
+				426D0D5728BDC86F00E5A83C /* TantujaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426D0D4A28BDC86F00E5A83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426D0D2E28BDC86A00E5A83C /* TantujaApp */;
+			targetProxy = 426D0D4928BDC86F00E5A83C /* PBXContainerItemProxy */;
+		};
+		426D0D5428BDC86F00E5A83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426D0D2E28BDC86A00E5A83C /* TantujaApp */;
+			targetProxy = 426D0D5328BDC86F00E5A83C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4230B11F28BF1A5B009ED28B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4230B11E28BF1A5B009ED28B /* en */,
+				4230B12228BF1A9C009ED28B /* bn */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		426D0D3828BDC86A00E5A83C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426D0D3928BDC86A00E5A83C /* Base */,
+				4230B11A28BF1A2F009ED28B /* en */,
+				4230B12028BF1A9C009ED28B /* bn */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426D0D4028BDC86F00E5A83C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426D0D4128BDC86F00E5A83C /* Base */,
+				4230B12128BF1A9C009ED28B /* bn */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426D0D5A28BDC86F00E5A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426D0D5B28BDC86F00E5A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426D0D5D28BDC86F00E5A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760A3D70261F29FDAD5CEDE8 /* Pods-TantujaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = WN6L8CACLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TantujaApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App will click image for your profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This permission for choosing profile photo only";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This permission for choosing profile photo only";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantuj.sft;
+				PRODUCT_NAME = "TANTUJA YARN BANK";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TantujaApp/inter/TantujaApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		426D0D5E28BDC86F00E5A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C745E9D597516C8190F40A8A /* Pods-TantujaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = WN6L8CACLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TantujaApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App will click image for your profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This permission for choosing profile photo only";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This permission for choosing profile photo only";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantuj.sft;
+				PRODUCT_NAME = "TANTUJA YARN BANK";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TantujaApp/inter/TantujaApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		426D0D6028BDC86F00E5A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TantujaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TantujaApp.app/TantujaApp";
+			};
+			name = Debug;
+		};
+		426D0D6128BDC86F00E5A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TantujaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TantujaApp.app/TantujaApp";
+			};
+			name = Release;
+		};
+		426D0D6328BDC86F00E5A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TantujaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TantujaApp;
+			};
+			name = Debug;
+		};
+		426D0D6428BDC86F00E5A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TantujaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TantujaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426D0D2A28BDC86A00E5A83C /* Build configuration list for PBXProject "TantujaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D0D5A28BDC86F00E5A83C /* Debug */,
+				426D0D5B28BDC86F00E5A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426D0D5C28BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D0D5D28BDC86F00E5A83C /* Debug */,
+				426D0D5E28BDC86F00E5A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426D0D5F28BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D0D6028BDC86F00E5A83C /* Debug */,
+				426D0D6128BDC86F00E5A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426D0D6228BDC86F00E5A83C /* Build configuration list for PBXNativeTarget "TantujaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D0D6328BDC86F00E5A83C /* Debug */,
+				426D0D6428BDC86F00E5A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		426D0D3B28BDC86A00E5A83C /* TantujaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				426D0D3C28BDC86A00E5A83C /* TantujaApp.xcdatamodel */,
+			);
+			currentVersion = 426D0D3C28BDC86A00E5A83C /* TantujaApp.xcdatamodel */;
+			path = TantujaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 426D0D2728BDC86A00E5A83C /* Project object */;
+}

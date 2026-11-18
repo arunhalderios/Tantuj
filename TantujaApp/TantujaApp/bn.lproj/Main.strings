@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Choose Language"; ObjectID = "948-O4-wc4"; */
+"948-O4-wc4.text" = "Choose Language";
+
+/* Class = "UILabel"; text = "English (US)"; ObjectID = "E1s-aV-JnH"; */
+"E1s-aV-JnH.text" = "English (US)";
+
+/* Class = "UIButton"; configuration.title = "Continue"; ObjectID = "GdW-Ga-yCU"; */
+"GdW-Ga-yCU.configuration.title" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GdW-Ga-yCU"; */
+"GdW-Ga-yCU.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jof-C4-NS6"; */
+"Jof-C4-NS6.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MzR-iE-qVW"; */
+"MzR-iE-qVW.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QLQ-6x-hau"; */
+"QLQ-6x-hau.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "বাংলা"; ObjectID = "SYy-ft-zmP"; */
+"SYy-ft-zmP.text" = "বাংলা";
+
+/* Class = "UILabel"; text = "Select your preferred language"; ObjectID = "Ttf-v8-8zu"; */
+"Ttf-v8-8zu.text" = "Select your preferred language";
+
+/* Class = "UILabel"; text = "ভাষা নির্বাচন করুন"; ObjectID = "wBk-rw-CcA"; */
+"wBk-rw-CcA.text" = "ভাষা নির্বাচন করুন";

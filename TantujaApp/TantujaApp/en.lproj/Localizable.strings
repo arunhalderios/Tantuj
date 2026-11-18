@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  TantujaApp
+
+  Created by Niranjan Barik on 31/08/22.
+  
+*/
+"Welcome Back" = "Welcome Back!";
+"Let’s login for explore continues" = "Let’s login for explore continues";
+"Sign In" = "Sign In";
+"Continue"                             = "Continue";
+"Phone Number"                         = "Phone Number";
+"Password"                             = "Password";
+"Remember Me"                          = "Remember Me";
+"Forgot Password"                      = "Forgot Password";
+"Login to other account"               = "Login to other account";
+"Don’t have an account?"               = "Don’t have an account?";
+"Register Now"                         = "Register Now";
+"Placed Order"                                      = "Placed Order";
+"Pending Orders"                                    = "Pending Orders";
+"Full fill Orders"                                  = "Full fill Orders";
+"Order quantity limit remaining for the month"      = "Order quantity limit remaining for the month";
+"Order quantity limit remaining for the month"      = "Order quantity limit remaining for the month";
+"Place New Order"                                   = "Place New Order";
+"Order From"                                      = "Order From";
+"Select Hub"                                      = "Select Hub";
+"Category"                                        = "Category";
+"Select Category"                                 = "Select Category";
+"Item Particulars"                                = "Item Particulars";
+"Select item particulars"                         = "Select item particulars";
+"Supply Mill"                                     = "Supply Mill";
+"Select supply mill"                              = "Select supply mill";
+"Enter Weight"                                    = "Enter Bundle";
+"kg"                                              = "kg";

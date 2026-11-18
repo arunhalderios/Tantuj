@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Vector" d="M160,80A80,80,0,1,1,80,0,80,80,0,0,1,160,80Z" transform="translate(108 270)" fill="#d9e8ff"/>
+    </clipPath>
+  </defs>
+  <g id="Illustration_icon" transform="translate(-108 -270)">
+    <g id="Mask_group" data-name="Mask group">
+      <g id="Vector-2" data-name="Vector" clip-path="url(#clip-path)">
+        <path id="Vector-3" data-name="Vector" d="M160,80A80,80,0,1,1,80,0,80,80,0,0,1,160,80Z" transform="translate(108 270)" fill="#98cbff"/>
+        <path id="Vector_815" data-name="Vector 815" d="M154.851-52.09c16.846,6.7,47.3,10.418,57.016,24.557,7.775,11.311,24.4,12.65,31.748,11.906v-43.16L117.92-72.182,0-58.787V0C22.677-1.488,26.564-34.975,58.96-36.463c25.917-1.191,45.354-15.379,51.833-22.325,9.071,0,30.581,1.339,44.058,6.7Z" transform="translate(321.831 329.265) rotate(180)" fill="#d9e8ff"/>
+        <rect id="Rectangle_118" data-name="Rectangle 118" width="213.126" height="77.141" transform="translate(108.481 388.468)" fill="#418cfc"/>
+        <g id="Group">
+          <path id="Rectangle" d="M0,0H83.084V138.473H0Z" transform="translate(146 304)" fill="#22325c"/>
+          <path id="Rectangle-2" data-name="Rectangle" d="M0,0H72.7V133.28H0Z" transform="translate(151.193 309.193)" fill="#fff" fill-rule="evenodd"/>
+          <g id="Group_10" data-name="Group 10">
+            <circle id="Oval" cx="24.233" cy="24.233" r="24.233" transform="translate(163.309 336.98)" fill="#156cf7"/>
+            <g id="Group_32" data-name="Group 32">
+              <rect id="Rectangle-3" data-name="Rectangle" width="19.827" height="15.421" rx="2" transform="translate(177.629 358.362)" fill="#fff"/>
+              <path id="Path_24" data-name="Path 24" d="M0,11.235V0H10.375V11.235" transform="translate(182.095 348.643)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" fill-rule="evenodd"/>
+            </g>
+          </g>
+          <g id="Group_10-2" data-name="Group 10">
+            <path id="Path_6" data-name="Path 6" d="M0,.865H31.156" transform="translate(171.964 400.919)" fill="none" stroke="#a5b4cb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" fill-rule="evenodd"/>
+            <path id="Path_6-2" data-name="Path 6" d="M0,.865H24.233" transform="translate(175.426 411.305)" fill="none" stroke="#a5b4cb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" fill-rule="evenodd" opacity="0.5"/>
+          </g>
+          <path id="Rectangle-4" data-name="Rectangle" d="M0,0H38.08l-4,8.655H4Z" transform="translate(168.502 308.603)" fill="#22325c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
